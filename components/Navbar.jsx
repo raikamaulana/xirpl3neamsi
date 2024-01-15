@@ -49,7 +49,7 @@ const galeri = [
     {
         name: "Galeri Foto Bukber Kelas 11",
         href: "/galeri-foto-bukber-11",
-        icon: FaPhoneAlt,
+        icon: FaPhotoVideo,
     },
 ]
 
@@ -344,7 +344,7 @@ const Navbar = () => {
                         <div className="-mr-2">
                             <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:black hover:bg-gray-100 focus:outline-none">
                                 <span className="sr-only">Close menu</span>
-                                <FaTimes/>
+                                <FaTimes aria-hidden="true"/>
                             </Popover.Button>
                         </div>
                     </div>
